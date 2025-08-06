@@ -1,5 +1,6 @@
 [
   {
+    //PLEASE ENSURE THAT THERE IS NO ACTIVE PROCESS BEFORE RUNNING THE PROGRAM AGAIN
     "label": "Run current file (zig)",
     //"command": "zig init", //sets up zig files to use command below
     // DIRECTORY CAN *NOT* HAVE ANY SPACING "C:/this-dir" not "C:/this dir"
