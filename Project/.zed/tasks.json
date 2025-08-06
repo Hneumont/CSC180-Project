@@ -1,0 +1,11 @@
+[
+  {
+    "label": "Run current file (zig)",
+    //"command": "zig init", //sets up zig files to use command below
+    // DIRECTORY CAN *NOT* HAVE ANY SPACING "C:/this-dir" not "C:/this dir"
+    "command": "cd '$ZED_DIRNAME' ; zig c++ -o $ZED_STEM.exe $ZED_FILE C:/LIBRARIES/raylib/lib/libraylib.a -lopengl32 -lgdi32 -lwinmm ; Start-Process $ZED_STEM.exe",
+    "use_new_terminal": true,
+    "allow_concurrent_runs": true
+
+  }
+]
